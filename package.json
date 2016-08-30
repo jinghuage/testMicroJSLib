@@ -1,6 +1,6 @@
 {
   "name": "test-micro-jslib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "micro jslib ",
   "main": "src/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "url": "https://github.com/jinghuage/testMicroJSLib/issues"
   },
   "homepage": "https://github.com/jinghuage/testMicroJSLib#readme",
-  "devDependencies": {
+  "dependencies": {
     "unique-random-array": "1.0.0"
   }
 }
