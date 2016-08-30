@@ -1,0 +1,25 @@
+{
+  "name": "test-micro-jslib",
+  "version": "1.0.0",
+  "description": "micro jslib ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinghuage/testMicroJSLib.git"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "Jinghua Ge <jinghuage@gmail.com> (http://avsl.cct.lsu.edu/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jinghuage/testMicroJSLib/issues"
+  },
+  "homepage": "https://github.com/jinghuage/testMicroJSLib#readme",
+  "devDependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
