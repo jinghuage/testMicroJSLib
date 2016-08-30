@@ -23,6 +23,14 @@ describe("test-micro-jslib", function(){
       var randomItem = snames.random();
       expect(snames.all).to.include(randomItem);
     });
+
+    it("should return an array of items if passed a number", function(){
+      var randomItems = snames.random(3);
+      expect(randomItems).to.have.length(3);
+      randomItems.forEach(function(item){
+        expect(snames.all).to.include(item);
+      });
+    });
   });
 
 });
