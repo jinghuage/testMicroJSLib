@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "version": "0.0.0",
   "scripts": {
+    "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "commit": "git-cz",
     "test:watch": "npm t -- -w",
     "test": "mocha ./src/index.test.js --compilers js:babel-register",
@@ -50,7 +51,8 @@
     "nyc": "8.1.0",
     "rimraf": "2.5.4",
     "semantic-release": "4.3.5",
-    "webpack": "1.13.2"
+    "webpack": "1.13.2",
+    "webpack-dev-server": "1.15.0"
   },
   "config": {
     "ghooks": {
