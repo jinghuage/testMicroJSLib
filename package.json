@@ -2,7 +2,7 @@
   "name": "test-micro-jslib",
   "description": "micro jslib ",
   "main": "dist/index.js",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0",
   "scripts": {
     "commit": "git-cz",
     "test:watch": "npm t -- -w",
