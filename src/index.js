@@ -1,5 +1,10 @@
-var snames = require("./snames.json");
-var uniqueRandomArray = require("unique-random-array");
+//var snames = require("./snames.json");
+//var uniqueRandomArray = require("unique-random-array");
+
+//these are es6 syntax: import instead of require
+import uniqueRandomArray from 'unique-random-array';
+import snames from './snames.json';
+
 var getRandomItem = uniqueRandomArray(snames);
 
 module.exports = {
